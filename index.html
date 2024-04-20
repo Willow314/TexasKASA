@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="left">
+        <div id="notepad">
+            <div>
+                <div id="title">ToDo</div>
+                <div class="projects">
+                    <div>
+                        Project:
+                        <select name="Projects">
+                            <option>All</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="list">
+                    <!-- <div class="item">
+                        <div class="remove"><button></button></div>
+                        <div class="info">
+                            <div class="titleDate">
+                                <div class="title">Title 1</div>
+                                <div class="dueDate">04/02/2024</div>
+                            </div>
+                            <div class="desc">Description of things</div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div id="button"><button id="newButton"></button></div>
+            <div id="newInput">
+                <div>
+                    <label for="titleInput">Title: </label>
+                    <input id="titleInput">
+                </div>
+                <div class = 'projects'>
+                    <label for="projInput">Project</label>
+                    <select id="projInput" name="Projects">
+                        <option value="All">All</option>
+                    </select>
+                    <input value="">
+                    <button>New Project</button>
+                </div>
+                <label for="descInput">Description</label>
+                <input id="descInput">
+                <div id="dueDateSubmit">
+                    <label for="dateInput">Due Date</label>
+                    <input id="dateInput" type="date">
+                    <button>Submit</button>
+                </div>
+            </div>
+        </div>  
+    </div>
+  
+</body>
+</html>
